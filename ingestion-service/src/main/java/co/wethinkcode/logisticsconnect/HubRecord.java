@@ -1,10 +1,10 @@
 package co.wethinkcode.logisticsconnect;
 
 public class HubRecord {
-    String hubId;
-    String province;
-    String sortingCenter;
-    Boolean active;
+    public String hubId;
+    public String province;
+    public String sortingCenter;
+    public Boolean active;
 
     public HubRecord(String hubId, String province, String sortingCenter, Boolean active) {
         this.hubId = hubId;
